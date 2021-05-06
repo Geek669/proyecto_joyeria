@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <h:outputStylesheet name="./css/default.css"/>
+        <h:outputStylesheet name="./css/cssLayout.css"/>
+        <title>Facelets Template</title>
+    </h:head >
+
+    <h:body>
+        <body style="background-color:#33C3FF;">
+
+            <div id="top" class="top">
+                <ui:insert name="top"> <center><font color="lime"><h1>LOJA PARA TODOS</h1></font></center></ui:insert>
+            </div>
+
+            <div id="content" class="center_content">
+                <center>
+                    <body bgcolor="red"></body>
+                    <ui:insert name="content"><font color="blue">Loja tiene características muy especiales que le dan una propia identidad, <br/>
+                            es una región de la patria ecuatoriana donde el desafío permanente de una naturaleza agreste y dura <br/>
+                            ha forjado un tipo de hombre abierto a la solidaridad, a la creatividad cultural y a la lucha solidaria por la supervivencia <br/>
+                            y el progreso; ser extranjero o forastero casi constituye un privilegio, la hospitalidad y cordialidad del lojano resalta <br/>
+                            y enaltece sus mejores tradiciones.<br/> 
+                            su diversidad cultural, su aporte a las artes, ciencias, música y letras ecuatorianas y por ser el lugar<br/>
+                            de nacimiento de muchos personajes ilustres de la sociedad ecuatoriana.</font><br/><br/><br/>
+
+                        <img  src="https://media-cdn.tripadvisor.com/media/photo-s/0e/cd/ac/f1/photo0jpg.jpg" height="400px" width="600px"/></ui:insert><br/><br/><br/>
+                    <ui:insert name="content"><font color="blue">No dudes en visitarnos te esperamos siempre con las manos abiertas <br/>
+                            Visitanos siempre  nuestros lugares turisticos</font><br/><br/><br/>
+                        <img  src="https://www.vistazo.com/sites/default/files/field/image/2015/08/31/loja-apertura.jpg" height="400px" width="600px"/></ui:insert><br/><br/>
+
+
+                </center>
+
+            </div>
+        </body>
+    </h:body>
+
+</html>
